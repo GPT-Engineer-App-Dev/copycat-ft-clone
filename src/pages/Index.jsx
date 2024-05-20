@@ -1,4 +1,4 @@
-import { Container, Text, VStack, Heading, Box } from "@chakra-ui/react";
+import { Container, Text, VStack, Heading, Box, Image } from "@chakra-ui/react";
 
 const Index = () => {
   return (
@@ -6,8 +6,8 @@ const Index = () => {
       <VStack spacing={4}>
         <Heading as="h1" size="2xl" color="#333333">Financial Times</Heading>
         <Text fontSize="lg" color="#333333">Welcome to the Financial Times. Stay updated with the latest news.</Text>
-        <Box boxSize="sm" bg="gray.200" display="flex" justifyContent="center" alignItems="center">
-          <Text fontSize="xl" color="#333333">Financial Times Logo</Text>
+        <Box boxSize="sm" display="flex" justifyContent="center" alignItems="center">
+          <Image src="/images/logo.png" alt="Financial Times Logo" />
         </Box>
       </VStack>
     </Container>
